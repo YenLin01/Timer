@@ -119,7 +119,7 @@ const TimerPage = () => {
           <p>讀書時間:</p>
           <button className="btn41-43 btn-41">{tomatoMin}</button>
           <button className="btn41-43 btn-41">{tomatoSec}</button>
-          <button className="">{tomato}</button>
+          <button className="count">第{tomato}節</button>
         </div>
         <div className="timerRow">
           <p>一節休息:</p>
@@ -129,7 +129,7 @@ const TimerPage = () => {
           <p>一輪結束:</p>
           <button className="btn41-43 btn-41">{loopRestMin}</button>{" "}
           <button className="btn41-43 btn-41">{loopRestSec}</button>
-          <button className="">{loopRest}</button>
+          <button className="count">第{loopRest}輪</button>
         </div>
         <button onClick={PauseHandler} className="bn632-hover bn26">
           {runningState ? "pause" : "start"}

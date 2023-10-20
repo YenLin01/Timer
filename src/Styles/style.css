@@ -91,4 +91,9 @@
   width: 200px;
   padding: 1rem;
   justify-content: center;
+}
+.timerRow .count {
+  background-color: #000000;
+  border: none;
+  margin-left: 1rem;
 }/*# sourceMappingURL=style.css.map */
